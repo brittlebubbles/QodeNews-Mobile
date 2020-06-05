@@ -1,5 +1,7 @@
 # QodeHub News App
 
+An app to fetch news data from a public api and display information.
+
 ## Commands
 
 The following are the important commands needed during development:
