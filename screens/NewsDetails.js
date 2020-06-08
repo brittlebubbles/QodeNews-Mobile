@@ -3,7 +3,6 @@ import {
   StyleSheet,
   Text,
   View,
-  Button,
   StatusBar,
   ImageBackground,
   TouchableOpacity,
@@ -35,7 +34,9 @@ const NewsDetails = ({ route, navigation }) => {
           <Text style={styles.authorTitle}>{author}</Text> */}
 
           <TouchableOpacity
-            style={{ position: "absolute", left: 20, top: 40 }}
+            style={
+              (styles.bbutton, { position: "absolute", left: 20, top: 40 })
+            }
             onPress={() => {
               navigation.goBack();
             }}
@@ -119,5 +120,19 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     paddingHorizontal: 14,
     marginBottom: 30,
+  },
+  bbutton: {
+    height: 40,
+    width: 40,
+    borderRadius: 20,
+    backgroundColor: "white",
+    position: "absolute",
+    left: 20,
+    top: 50,
+    justifyContent: "center",
+    alignItems: "center",
+    shadowColor: "black",
+    shadowOffset: { x: 0, y: 1 },
+    shadowOpacity: 0.4,
   },
 });

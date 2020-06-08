@@ -7,6 +7,7 @@ import { createStackNavigator } from "@react-navigation/stack";
 import NewsScreen from "../screens/NewsScreen";
 import NewsDetails from "../screens/NewsDetails";
 
+//Creates Stack
 const Stack = createStackNavigator();
 
 function MainStack() {
