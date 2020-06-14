@@ -2,7 +2,11 @@
 
 An app to fetch news data from a public api and display information.
 
-## Commands
+## Video Preview
+
+https://drive.google.com/file/d/1RcfEEAKoW6ZEfslK9ake_rBQE21ODhZu/view?usp=sharing
+
+## Commands 
 
 The following are the important commands needed during development:
 
